@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class item{
+class Item{
 public:
     string name;
     int quantity;
@@ -36,12 +36,12 @@ public:
 };
 
 int main(){
-    item item;
-    item.name = "pen";
-    item.quantity = 100;
+    Item item1;
+    item1.name = "pen";
+    item1.quantity = 100;
 
-    item.saveToFile();
-    item.loadFromFile();
+    item1.saveToFile();
+    item1.loadFromFile();
 
     return 0;
 }

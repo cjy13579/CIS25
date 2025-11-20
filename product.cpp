@@ -27,8 +27,8 @@ class Product{
 };
 
 int main(){
-    Product product(1001, "MacBook", 1299.99);
-    product.printDetails();
+    Product product1(1001, "MacBook", 1299.99);
+    product1.printDetails();
 
     return 0;
 }
