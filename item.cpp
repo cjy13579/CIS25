@@ -42,5 +42,7 @@ int main(){
 
     item.saveToFile();
     item.loadFromFile();
+
+    return 0;
 }
 
