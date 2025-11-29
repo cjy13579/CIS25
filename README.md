@@ -1,11 +1,11 @@
 # CIS25 Week 7
 
-Overview
+# Overview
 
 This week’s assignment focuses on debugging C++ code and rewriting it using nested if statements.
 The goal is to correctly determine and display the largest of three input numbers.
 
-What This Program Does
+# What This Program Does
 
 This program asks the user to enter three numbers.
 Then, using nested if statements, it compares the numbers step-by-step to determine which one is the largest.
