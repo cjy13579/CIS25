@@ -3,7 +3,7 @@
 
 
 
-// item.cpp
+# item.cpp
 1. Define Item class
    It contains:
 
@@ -28,7 +28,7 @@ A method to load and print data from the file
   
 
 
-// product.cpp
+# product.cpp
 1. Defines Product class
    The class contains three private data members:
 
