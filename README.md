@@ -5,6 +5,30 @@
 This week’s assignment focuses on debugging C++ code and rewriting it using nested if statements.
 The goal is to correctly determine and display the largest of three input numbers.
 
+# test1.cpp
+# What the Program Does
+
+Displays a menu with three options:
+
+Add Item
+
+View Items
+
+Exit
+
+Accepts user input.
+
+Uses conditional statements (if, else if, else) to check which option the user selected.
+
+Prints the appropriate response depending on the choice.
+
+Handles invalid input by showing an error message.
+
+
+
+
+# test2.cpp
+
 # What This Program Does
 
 This program asks the user to enter three numbers.
