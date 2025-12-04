@@ -29,7 +29,7 @@ Handles invalid input by showing an error message.
 
 # test2.cpp
 
-# What This Program Does
+# What the Program Does
 
 This program asks the user to enter three numbers.
 Then, using nested if statements, it compares the numbers step-by-step to determine which one is the largest.
