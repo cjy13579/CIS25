@@ -41,11 +41,12 @@ Demonstrates long-term data storage, a required component of the project.
 
 The program uses an object-oriented design with one class:
 
-Private Data
+Private Data: 
 
 double balance – stores the current amount of money.
 
-Public Methods
+
+Public Methods: 
 
 deposit(double amount)
 
@@ -55,7 +56,8 @@ displayBalance() const
 
 saveTransaction(string type, double amount)
 
-Main Function
+
+Main Function: 
 
 The main() function demonstrates:
 
