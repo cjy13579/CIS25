@@ -23,8 +23,9 @@ public:
             cout << "Invalid deposit amount." << endl;
         }
     }
+    
     // make purchase
-    void makePurchase(const string& item, double cost) {
+    void makePurchase(string item, double cost) {
         if (cost <= 0) {
             cout << "Invalid purchase amount." << endl;
         }
@@ -39,12 +40,12 @@ public:
     }
 
     // Print the current balance
-    void displayBalance() const {
+    void displayBalance() {
         cout << "Current Balance: $" << balance << endl;
     }
 
     // Save transaction to the file
-    void saveTransaction(const string& type, double amount) {
+    void saveTransaction(string type, double amount) {
         ofstream file("transactions.txt", ios::app);
         if (file.is_open()) {
             file << type << ": $" << amount << endl;
