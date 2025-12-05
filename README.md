@@ -33,7 +33,6 @@ Every transaction is saved to a file named transactions.txt.
 
 Uses file append mode (ios::app) so data is kept permanently.
 
-Demonstrates long-term data storage, a required component of the project.
 
 # How the Program Work
 
