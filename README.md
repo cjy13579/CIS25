@@ -62,7 +62,7 @@ The main() function demonstrates:
 
 Depositing money
 
-Making 2 purchases
+Making 3 purchases
 
 Displaying the final balance
 
