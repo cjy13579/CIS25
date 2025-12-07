@@ -24,7 +24,7 @@ public:
         }
     }
     
-    // make purchase
+    // Make purchase
     void makePurchase(string item, double cost) {
         if (cost <= 0) {
             cout << "Invalid purchase amount." << endl;
