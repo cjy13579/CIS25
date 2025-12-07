@@ -59,7 +59,8 @@ int main() {
 
     myAccount.deposit(100);                   
     myAccount.makePurchase("Coffee", 3.50);      
-    myAccount.makePurchase("Book", 25.60);       
+    myAccount.makePurchase("Book", 25.60);
+    myAccount.makePurchase("Video Game", 79.99);        
     myAccount.displayBalance();                 
 
     cout << "Transactions saved to transactions.txt" << endl;
