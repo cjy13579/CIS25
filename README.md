@@ -21,7 +21,7 @@ Rejects invalid purchase amounts (zero or negative).
 
 Checks if the balance is sufficient before completing the purchase.
 
-Saves each purchase with the item description to the transaction.txt file.
+Saves each purchase, including the item description, to the transaction.txt file.
 
 3. Display Balance
 
@@ -42,7 +42,7 @@ The program uses an object-oriented design with one class:
 
 Private Data: 
 
-double balance – stores the current amount of money.
+double balance: stores the current amount of money.
 
 
 Public Methods: 
@@ -51,7 +51,7 @@ deposit(double amount)
 
 makePurchase(string item, double cost)
 
-displayBalance() const
+displayBalance()
 
 saveTransaction(string type, double amount)
 
