@@ -21,7 +21,7 @@ Rejects invalid purchase amounts (zero or negative).
 
 Checks if the balance is sufficient before completing the purchase.
 
-Saves each purchase, including the item description, to the transaction.txt file.
+Saves each purchase to the transaction.txt file.
 
 3. Display Balance
 
