@@ -36,7 +36,7 @@ Uses file append mode (ios::app) so data is kept permanently.
 
 # How the Program Work
 
-# BankAccount Class
+BankAccount Class: 
 
 The program uses an object-oriented design with one class:
 
